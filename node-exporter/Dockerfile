@@ -1,4 +1,4 @@
-FROM arm32v7/prom/node-exporter:v0.16.0
+FROM arm/prom/node-exporter:v0.16.0
 
 ENV NODE_ID=none
 
