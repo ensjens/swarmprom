@@ -6,5 +6,7 @@ USER root
 
 COPY conf /etc/node-exporter/
 
+COPY qemu-arm-static /usr/bin
+
 ENTRYPOINT  [ "/etc/node-exporter/docker-entrypoint.sh" ]
 CMD [ "/bin/node_exporter" ]
